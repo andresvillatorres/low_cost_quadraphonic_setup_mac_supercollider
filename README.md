@@ -29,14 +29,18 @@ https://supercollider.github.io/download
 4. Open your Audio MIDI Setup by searching for it through spotlight or find it inside "Applications/Utilities/Audio MIDI Setup"
 
 5. Once open, click on the "+" symbol on the left lower corner and choose create "Aggregate Device"
+![](/images/1_create_aggregate_device.png)
 
 6. An aggregate device should appear and on the right side you should be able to select from a list of devices , be aware of the differences between In(s) and Out(s) and make sure to select two devices for output and one for input, in this case the macbook speakers, the BeoPlay A1 as outputs and the internal microphone as input.
 
 7. Once done, click on "configure speakers" and in the configuration dropdown select "quadraphonic". Rearrange the speakers if necessary. LF - 1, RF - 2 , LS - 3 , RS - 4.
+![](/images/2_configure_speakers.png)
 
 *** By clicking on the speaker icons you will hear a very loud white noise coming from each of the mono speakers in your 4 output setup. if this is not the case something went wrong. Click Apply and Done.
 
 8. Also make sure that the sample rates from the inputs and outputs match (48,000kHz) and that the levels from the independent output devices are not maxed out.
+![](/images/3_set_volume_and_samplerate.png)
+![](/images/5_set_vol_and_samplerate_input.png)
 
 9. Now you can proceed to open the file "audio_4_setup.scd" with supercollider and compile it. It should all run and you should be able to listen to two sounds one continuous drone and one discrete
 
