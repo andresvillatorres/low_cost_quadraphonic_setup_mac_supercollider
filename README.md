@@ -46,3 +46,5 @@ https://supercollider.github.io/download
 
 10. You can as well open and run the file "xyPan4circleSCviaOSC.pde" with processing too
 
+# Video Link
+https://youtu.be/S09mRct8nrM
